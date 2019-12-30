@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--My CSS files-->
+    <link rel="stylesheet" href="assets\css\signup.css" />
+    <!--Link to google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+    <!--local jquery library-->
+    <script type="text/javascript" src="assets\js\lib\jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="errorMessage"></div>
+      <div id="signUp"></div>
+      <label for="email">Email</label>
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="eg. johnDoe@something.com"
+      />
+
+      <label for="phone">Phone Number</label>
+      <input
+        type="text"
+        name="phone"
+        id="phone"
+        placeholder="eg. 123-456-7890"
+      />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+
+      <label for="password">Confirm Password</label>
+      <input type="password" name="confirmPassword" id="confirmPassword" />
+
+      <input type="submit" id="submitButton" value="Sign Up" />
+    </div>
+<!--My own jquery-->
+  <script type="text/javascript" src="assets\js\signup.js"></script>
+  </body>
+</html>
