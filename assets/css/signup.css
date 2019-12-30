@@ -1,23 +1,19 @@
 body {
-  
-  /*background: linear-gradient(
+  background-image: linear-gradient(
     -90deg,
-    
-    rgb(18, 195, 77),
+    rgba(6, 29, 236, 0.5),
     rgb(0, 212, 255)
-  );*/
-  
-  background-image: linear-gradient(-90deg, rgba(6,29,236,0.5), rgb(0, 212, 255));
+  );
 
-  font-family: 'Gelasio', serif;
+  font-family: "Gelasio", serif;
   font-size: 25px;
-  color:black;
+  color: black;
   font-weight: 500;
 }
 /*use this to put texts in the middle of the page.*/
 #wrapper {
-    padding-top: 200px;
-    padding-left: 100px;
+  padding-top: 200px;
+  padding-left: 100px;
   width: 450px;
   margin: 0 auto;
 }
@@ -33,24 +29,23 @@ input {
   padding: 2px;
   border-radius: 5px;
   border: 2px solid #549cd7;
-  font-family:'Gelasio', serif; ;
+  font-family: "Gelasio", serif;
 }
 #submitButton {
-    margin-top: 20px;
-    
+  margin-top: 20px;
+
   width: 358px;
-  
-  background-color:limegreen;
+
+  background-color: limegreen;
 }
 #errorMessage {
-  color:#FD091D;
-  font-family: 'Titillium Web', sans-serif;
+  color: #fd091d;
+  font-family: "Titillium Web", sans-serif;
   font-size: 30px;
-  
 }
 #signUp {
-  color:black;
+  color: black;
   font-size: 30px;
 
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
